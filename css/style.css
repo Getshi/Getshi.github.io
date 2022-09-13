@@ -144,7 +144,7 @@ h1 span {
 	font-weight: normal;
 }
 
-.self img {
+.portrait {
 	background-repeat: no-repeat;
 	width:150px;
 	/* margin-left:40px;
@@ -345,8 +345,37 @@ h1 span {
 	padding: 0;
 }
 
+.self .material-icons {
+	padding: 8px;
+	color:#000000;
+}
+
+.self .material-icons:hover {
+	background-color: rgb(236, 236, 236);
+	border-radius: 4px;
+}
+
+.self .linkicon {
+	width:20px;
+	height:20px;
+	padding: 12px;
+	border-radius:2px;
+}
+.self .linkicon:hover {
+	background-color: rgb(236, 236, 236);
+	border-radius: 4px;
+}
+
+.aligncenter {
+	display: table;
+}
+
+.aligncenter img {
+	vertical-align: middle;
+}
+
 .material-icons {
-  vertical-align: -8px; /* meh */
+  vertical-align: -8px; 
 }
 
 .material-icons.link, .material-icons.link:visited, .material-icons.link:active {
